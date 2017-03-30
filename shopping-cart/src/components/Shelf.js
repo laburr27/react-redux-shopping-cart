@@ -17,8 +17,8 @@ class Shelf extends Component {
     const shelfItems = this.state.shelfItems.map( (item, id) => {
       return (
         <li key={id}>
-            {item}
-            <button onClick={() => this.props.addItem(item)}>+</button>
+          {item}
+          <button onClick={() => this.props.addItem(item)}>+</button>
         </li>
       )
     })
