@@ -6,7 +6,7 @@ import * as CartActions from '../actions/CartActions'
 import Shelf from '../components/Shelf'
 
 class Cart extends Component {
-  contstructor(props){
+  constructor(props){
     super(props)
       this.state = {}
   }

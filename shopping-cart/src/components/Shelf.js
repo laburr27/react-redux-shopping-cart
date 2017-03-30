@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 class Shelf extends Component {
-  contstructor(props){
+  constructor(props){
     super(props)
     this.state = {
       shelfItems: [
